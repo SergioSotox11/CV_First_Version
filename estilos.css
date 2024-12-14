@@ -62,6 +62,32 @@ p, ul {
     font-weight: bold;
     transition: background-color 0.3s;
 }
+nav {
+    background-color: transparent;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+nav ul li a.button:hover {
+    background-color: #555;
+}
 
 .linkedin { background-color: #0077b5; }
 .instagram { background-color: #e4405f; }
